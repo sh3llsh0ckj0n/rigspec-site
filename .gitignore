@@ -134,3 +134,19 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# React build outputs
+/build
+/dist
+
+# Environment variables
+.env*
+.env.*.local
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
